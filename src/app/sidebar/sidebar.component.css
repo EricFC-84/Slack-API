@@ -428,7 +428,7 @@
   /*-----------------------------chiller-theme-------------------------------------------------*/
   
   .chiller-theme .sidebar-wrapper {
-    background: #31353D;
+    background: #3f0e40;
   }
   
   .chiller-theme .sidebar-wrapper .sidebar-header,
@@ -450,7 +450,8 @@
   .chiller-theme .sidebar-wrapper .sidebar-brand>a,
   .chiller-theme .sidebar-wrapper .sidebar-menu ul li a,
   .chiller-theme .sidebar-footer>a {
-    color: #818896;
+    /* color: #818896; */
+    color: white;
   }
   
   .chiller-theme .sidebar-wrapper .sidebar-menu ul li:hover>a,
@@ -459,6 +460,7 @@
   .chiller-theme .sidebar-wrapper .sidebar-brand>a:hover,
   .chiller-theme .sidebar-footer>a:hover i {
     color: #b8bfce;
+    background-color: rgba(0,0,0,0.2);
   }
   
   .page-wrapper.chiller-theme.toggled #close-sidebar {
